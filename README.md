@@ -76,7 +76,7 @@ The data taken from the model will be used for this controller for some working.
 **e. A sequence diagram to represent the interaction of the web application.**
 
 
-![alt text](https://github.com/MrAdib1898/Sports-Equipment-Rental-System/blob/main/Sequence%20diagram.png)
+![alt text](https://github.com/MrAdib1898/Sports-Rental-Equipment/blob/main/Sequence%20diagram.png)
 
 _Diagram 2. Login and Viewing function_
 
