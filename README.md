@@ -80,9 +80,13 @@ The data taken from the model will be used for this controller for some working.
 
 _Diagram 2. Login and Viewing function_
 
-**Work Delegationn** - 
+**Work Delegationn** -
+
+
 Ku Hisyamuddin: Register and the login function, create new rental equipment for student, feedback forum.
+
 Muhammad Adib : Rental payment, delete equipment 
+
 Hariz Harudin : About Us, List of Item, edit the equipment
 
 f. References.
