@@ -65,13 +65,26 @@ After completing the rent process, users have use the items, and the items were 
 
 The view is what the users will see, this part contains the HTML and the CSS, which display the interface of our web applications. Users can see some listed of items, and forms to fill. By filling up this form we can get some data that will be used for the controller.
 
+There is 5 page of views in our project that is:
+1) The login and registration page
+2) Dashboard, where we display the navigation bar and welcome text
+3) List of rent items
+4) Details of rental
+5) Rental page 
+
 **Model**
 
-The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. All the data of the users and the items listed are stored in the database and will be used in certain function of the system. The items listed will be used in the viewing function, renting, and the post purchase. The user&#39;s information are stored for verification purposed only, other users cannot see it as it is private data.
+The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. All the data of the users and the items listed are stored in the database and will be used in certain function of the system. The items listed will be used in the viewing function, renting, and the post purchase. The users information are stored for verification purposed only, other users cannot see it as it is private data.
+
+1) The details of the users are stored in the database. This includes the autentication of the users that been registered in the registration page.
+2) The details of the items that the user has rent are stored in the model.
 
 **Controller**
 
 The data taken from the model will be used for this controller for some working. How the data should be in view also need to be considered in this controller. Users will never know how the controller functions. The controller handles all the requests from the client. All the users&#39; requests will be sent to the controller and if the request from the users&#39; needs to get any data inside the database, this controller will interact with the model so the users get the response for their request. For example, our system for renting, if users want to rent the items listed, the controller will handle this input and the controller also will send a request to the model to update the database.
+
+1) CRUD function where the details in the models can be created, update, registered and been update, For our system, CRUD the details of the users and the item they rent.
+2) The controller to calculate the rent price of the items 
 
 **e. A sequence diagram to represent the interaction of the web application.**
 
