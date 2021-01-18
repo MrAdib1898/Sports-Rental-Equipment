@@ -67,10 +67,15 @@ The view is what the users will see, this part contains the HTML and the CSS, wh
 
 There is 5 page of views in our project that is:
 1) The login and registration page
+  - For user authentication
 2) Dashboard, where we display the navigation bar and welcome text
+  - Main page, and from here we navigate to other page
 3) List of rent items
-4) Details of rental
+  - The items that can be rent are display here.
+4) Details of student rental
+  - The items that the student rent are registered here. This include the delete, create and edit the details of the student rental.
 5) Rental page 
+  - Users can rent the items by filling up form that have the date, starts time and end, and the items id.
 
 **Model**
 
